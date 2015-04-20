@@ -55,6 +55,7 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'bgg-parser', '~> 0.0.4'
 
 group :development, :test do
+  gem 'capistrano', "~> 2.14.2"
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'pry'
